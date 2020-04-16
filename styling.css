@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    background-image: url("resources/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page_content{
+    border-style: double;
+    border-color: hotpink;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 10vh;
+    height: 80vh;
+    background-color: white;
+}
+
+.text{
+    font-size: small;
+}
+.product_display{
+    display: flex;
+}
+
+.product_image{
+    height: 350px;
+    width: 350px;
+    margin: auto;
+}
+
+.header{
+    height: 10%;
+}
+
+.content{
+    height: 90%;
+}
+
+.logo{
+    background-image: url("resources/logo.png");
+    background-size: cover;
+
+}

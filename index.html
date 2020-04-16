@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!--    custom css-->
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+   <div class="page_content container">
+
+       <div class="header row">
+            <div class="col-1"></div>
+            <div class="logo col-2"></div>
+
+            <div class="col-7">
+                <ul class=" nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOG IN</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-2"></div>
+        </div>
+
+       <div class="content row">
+
+            <div class="product_display col-7">
+                <img class="product_image" src="resources/e03.jpg" alt="product">
+            </div>
+
+            <div class="col-5 product_description">
+                <h1 class="display-4">Bad and Boujee</h1>
+                <hr>
+                <br>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ab amet dignissimos dolore ea eaque excepturi explicabo
+                    illo magni, minima nam necessitatibus praesentium quas
+                    sapiente sit temporibus ullam unde veritatis voluptatem?</p>
+
+                <br><br>
+
+                <!--                select number of items wished to purchase-->
+                <div class="form-inline">
+                    <label for="quantity">Quantity:</label>
+                    <input class="form-control" type="number" id="quantity" placeholder="Select quantity">
+                </div>
+                <br>
+
+                <!--                checkbox for promotional basis-->
+                <div class="form-check">
+                    <label for="check_promo" class="form-check-label">
+                        <input class="form-check-input" id="check_promo" type="checkbox"> Receive suggestions on products related to this
+                    </label>
+                </div>
+                <hr>
+                <!--                button to submit-->
+                <a href="#" class="btn btn-outline-primary">ORDER NOW</a>
+
+
+            </div>
+
+        </div>
+
+   </div>
+
+
+</body>
+</html>
